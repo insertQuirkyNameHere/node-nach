@@ -35,15 +35,17 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "test": "NODE_ENV=test ./node_modules/.bin/mocha --reporter spec --recursive"
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --reporter spec --recursive",
+    "jest": "jest"
   },
   "dependencies": {
     "async": "^2.0.1",
+    "jest": "^29.5.0",
     "lodash": "^4.14.1",
     "moment": "^2.22.0"
   },
   "devDependencies": {
-    "mocha": "latest",
-    "chai": "latest"
+    "chai": "latest",
+    "mocha": "latest"
   }
 }

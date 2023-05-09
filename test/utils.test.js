@@ -17,7 +17,7 @@ describe('Utils', function() {
 
   describe('GenerateString', function() {
     it("Test to see if object can be passed", function() {
-      var utils = require('./../lib/utils');
+      var utils = require('../lib/utils');
 
       var testObj = {
 
@@ -39,7 +39,7 @@ describe('Utils', function() {
 
   describe('YYMMDD', function() {
     it('Must return the current date', function() {
-      var utils = require('./../lib/utils');
+      var utils = require('../lib/utils');
 
       var day = moment().get('date').toString();
       var year = moment().get('year').toString().slice(-2);
@@ -62,7 +62,7 @@ describe('Utils', function() {
 
   describe('HHMM', function() {
     it('Must return the current time', function() {
-      var utils = require('./../lib/utils');
+      var utils = require('../lib/utils');
 
       var hour = moment().hour().toString();
       var minute = moment().minute().toString();
